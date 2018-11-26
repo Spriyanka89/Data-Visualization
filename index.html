@@ -1,0 +1,145 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.dom.js"></script>
+  <script language="javascript" type="text/javascript" src="p5js-temp-VERSION7_NOV25_20182596736653691401603.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <!-- This line removes any default padding and style. 
+       You might only need one of these values set. -->
+  <style> body {padding: 0; margin: 0;}
+  h2 {
+    text-align: left;
+    text-transform: uppercase;
+    color: brown;
+padding: 10px 10px;
+    
+}
+
+#country{
+ 
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#temperature{
+ 
+    color: #42cef4;
+    padding: 5px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+#temperatur{
+ 
+    color: #47c147;
+    padding: 5px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+#temperatu{
+ 
+    color: red;
+    padding: 5px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+#temperat{
+ 
+    color: purple;
+    padding: 5px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+#submit{
+ 
+    color: black;
+    padding: 10px 10px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+#town{
+ 
+    color: black;
+    padding: 10px 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.topnav a {
+  float: left;
+  color: #D9D9D9;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+
+  </style>
+</head>
+
+<body>
+
+
+
+<h1 style="text-align: center";>Real Time City Temperature Data Visualization</h1>
+<h2>
+City : <input id = "town" value ="New York"> </input>
+
+<br/>
+<button id = "submit"><B>Submit</B></button></h2>
+
+
+
+<div class="topnav">
+<a><button id = "Country"><B>USA</B></button></a>
+<a><button id = "Country"><B>Germany</B></button></a>
+<a><button id = "Country"><B>India</B></button><a>
+<a><button id = "Country"><B>Russia</B></button></a>
+<a><button id = "Country"><B>South America</B></button></a>
+<a><button id = "Country"><B>France</B></button><a>
+<a><button id = "Country"><B>Canada</B></button></a>
+<a><button id = "Country"><B>Australia</B></button></a>
+<a><button id = "Country"><B>China</B></button><a>
+<a><button id = "Country"><B>Pakistan</B></button></a>
+<a><button id = "Country"><B>Korea, North</B></button></a>
+<a><button id = "Country"><B>Mauritius</B></button><a>
+<a><button id = "Country"><B>Turkey</B></button><a>
+</div>
+
+</br>
+</br>
+
+
+<div >
+<button id = "temperat"><B>less than 0 deg</B></button>
+<button id = "temperature"><B>between 0- 10 deg</B></button>
+<button id = "temperatur"><B>between 10- 25 deg</B></button>
+<button id = "temperatu"><B>Greater than 25 deg</B></button>
+</div>
+
+</body>
+</html>
